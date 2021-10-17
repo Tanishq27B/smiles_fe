@@ -1,8 +1,9 @@
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, Avenir, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13,4 +14,128 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.background-primary{
+  background-color: yellow;
+}
+
+.background-black{
+  background-color: black;
+}
+
+.background-light-grey{
+  background-color: rgb(244,240,236);
+}
+
+.background-grey{
+  background-color: grey;
+}
+
+.color-blue{
+  color: rgb(33,63,152);
+}
+
+.height-100-vh{
+  height: 100vh;
+}
+
+.height-40-vh{
+  height: 40vh;
+}
+
+.height-60-vh{
+  height: 60vh;
+}
+
+.height-40-px{
+  height: 40px;
+}
+
+.height-100{
+  height: 100%;
+}
+
+.width-100-vw{
+  width: 100vw;
+}
+
+.width-60-vw{
+  width: 60vw;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.font-150{
+  font-size: 150%;
+}
+
+.font-200{
+  font-size: 200%;
+}
+
+.border{
+  border: 1px solid black;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-radius-20{
+  border-radius: 20px;
+}
+
+.border-radius-30{
+  border-radius: 30px;
+}
+
+.border-radius-50p{
+  border-radius: 50%;
+}
+
+.margin-bottom-md{
+  margin-bottom: 10px;
+}
+
+.margin-top-lg{
+  margin-top: 15px;
+}
+
+.margin-left-md{
+  margin-left: 10px;
+}
+
+.padding-small{
+  padding: 5px;
+}
+
+.padding-md{
+  padding: 10px;
+}
+
+.padding-lg{
+  padding: 15px;
+}
+
+.padding-xlg{
+  padding: 20px;
+}
+
+.avenir{
+  font-family: avenir;
 }
